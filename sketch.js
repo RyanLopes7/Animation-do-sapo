@@ -24,20 +24,20 @@ var eating_sound;
 var air;
 
 function preload() {
-  bgImg = loadImage("./assets/bg.png");
-  fruitImg = loadImage("./assets/candy.png");
-  rabbitImg = loadImage("./assets/bocaaber.png");
+  bgImg = loadImage("assets/bg.png");
+  fruitImg = loadImage("assets/candy.png");
+  rabbitImg = loadImage("assets/bocaaber.png");
 
-  bk_song = loadSound("./assets/sound1.mp3");
-  sad_sound = loadSound("./assets/sad.wav");
-  cut_sound = loadSound("./assets/rope_cut.mp3");
-  eating_sound = loadSound("./assets/eating_sound.mp3");
-  air = loadSound("./assets/air.wav");
+  bk_song = loadSound("assets/sound1.mp3");
+  sad_sound = loadSound("assets/sad.wav");
+  cut_sound = loadSound("assets/rope_cut.mp3");
+  eating_sound = loadSound("assets/eating_sound.mp3");
+  air = loadSound("assets/air.wav");
 
-  blink = loadAnimation("./assets/per1.png");
-  eat = loadAnimation("./assets/bocaaber.png", "./assets/per1.png");
+  blink = loadAnimation("assets/per1.png");
+  eat = loadAnimation("assets/bocaaber.png", "assets/per1.png");
 
-  sad = loadAnimation("./assets/per2.png");
+  sad = loadAnimation("assets/per2.png");
   eat.looping = false;
 }
 
